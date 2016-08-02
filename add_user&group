@@ -1,0 +1,3 @@
+echo 123456 | openssl passwd -1 -stdin
+ansible hosts -m group -a "name=jssy gid=666 state=present"
+ansible hosts -m user -a "name=jssyadmin uid=666 password=* group=jssy state=present"
