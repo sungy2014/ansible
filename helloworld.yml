@@ -1,7 +1,6 @@
 ---
-- name: Hello World!
 - hosts: test
+- name: Hello World!
   tasks:
-
   - name: Hello World!
     shell: echo "Hi! Tower is working!"
