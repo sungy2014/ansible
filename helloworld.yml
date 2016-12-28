@@ -1,6 +1,6 @@
 ---
 - name: Hello World!
-- hosts: 120.77.61.49
+- hosts: test
   tasks:
 
   - name: Hello World!
